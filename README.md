@@ -23,29 +23,28 @@ This project demonstrates the design and simulation of an **8-bit Vedic Multipli
 ## 🖼️ Results
 
 ### 🔧 Schematic Diagram  
-<img src="images/schematic.png" alt="Schematic Diagram" width="600"/>
+<img src="images/schematic_v8a.png" alt="Schematic Diagram" width="600"/>
 
 ### 🔋 Power Report  
-<img src="images/power.png" alt="Power Report" width="600"/>
+<img src="images/power_v8.png" alt="Power Report" width="600"/>
 
 ### ⌛ Delay Report  
-<img src="images/delay.png" alt="Delay Report" width="600"/>
+<img src="images/delay_v8.png" alt="Delay Report" width="600"/>
 
 ### 🧱 Area Report  
-<img src="images/area.png" alt="Area Report" width="600"/>
+<img src="images/area_v8.png" alt="Area Report" width="600"/>
 
 ### 📶 Simulation Waveform  
-<img src="images/simulation.png" alt="Simulation Waveform" width="600"/>
+<img src="images/sim_wvfrm_v8.png" alt="Simulation Waveform" width="600"/>
 
 ## 📊 Performance Summary
 
 | Parameter         | Value              |
 |------------------:|--------------------|
 | Technology        | 45nm               |
-| Area              | [Add value] µm²    |
-| Delay             | [Add value] ns     |
-| Power             | [Add value] µW     |
-| Frequency         | [Add value] MHz    |
+| Area              | [6070.680] µm²     |
+| Delay             | [2000] ns          |
+| Power             | [4.03493e] µW      |
 
 ## ✅ How It Works
 
