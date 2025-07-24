@@ -1,0 +1,13 @@
+# Cadence Genus(TM) Synthesis Solution, Version 20.11-s111_1, built Apr 26 2021 14:57:38
+
+# Date: Thu Jun 20 10:44:07 2024
+# Host: cadence (x86_64 w/Linux 3.10.0-862.el7.x86_64) (4cores*8cpus*1physical cpu*Intel(R) Xeon(R) W-2123 CPU @ 3.60GHz 8448KB)
+# OS:   Red Hat Enterprise Linux Server release 7.5 (Maipo)
+
+source rca4_toad.tcl
+pwd
+cd ../../All optical design of hybrid adder circuit using terahertz optical asymmetric demultiplexer/
+cd ../../All optical design of hybrid adder circuit using terahertz optical asymmetric demultiplexer/
+cd ../../
+pwd
+cd All optical design of hybrid adder circuit using terahertz optical asymmetric demultiplexer/

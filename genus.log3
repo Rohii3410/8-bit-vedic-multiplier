@@ -1,0 +1,39 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 20.11-s111_1, built Mon Apr 26 02:27:38 PDT 2021
+Options: -files rca4_toad.tcl 
+Date:    Thu Jun 20 10:44:07 2024
+Host:    cadence (x86_64 w/Linux 3.10.0-862.el7.x86_64) (4cores*8cpus*1physical cpu*Intel(R) Xeon(R) W-2123 CPU @ 3.60GHz 8448KB) (15897768KB)
+PID:     10425
+OS:      Red Hat Enterprise Linux Server release 7.5 (Maipo)
+
+Checking out license: Genus_Synthesis
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...
+Finished loading tool scripts (9 seconds elapsed).
+
+#@ Processing -files option
+@genus 1> source rca4_toad.tcl
+File 'rca4_toad.tcl' does not exist.
+Encountered problems processing file: rca4_toad.tcl
+WARNING: This version of the tool is 1150 days old.
+@genus:root: 2> pwd
+/root/PranS/proj/MAC16/vedic8bit
+@genus:root: 3> cd ../../All optical design of hybrid adder circuit using terahertz optical asymmetric demultiplexer/
+wrong # args: should be "cd ?dirName?"
+@genus:root: 4> cd ../../All optical design of hybrid adder circuit using terahertz optical asymmetric demultiplexer/
+wrong # args: should be "cd ?dirName?"
+@genus:root: 5> cd ../../
+@genus:root: 6> pwd
+/root/PranS/proj
+@genus:root: 7> cd All optical design of hybrid adder circuit using terahertz optical asymmetric demultiplexer/
+wrong # args: should be "cd ?dirName?"

@@ -1,0 +1,9 @@
+# Cadence Genus(TM) Synthesis Solution, Version 20.11-s111_1, built Apr 26 2021 14:57:38
+
+# Date: Wed Jun 19 14:55:03 2024
+# Host: cadence (x86_64 w/Linux 3.10.0-862.el7.x86_64) (4cores*8cpus*1physical cpu*Intel(R) Xeon(R) W-2123 CPU @ 3.60GHz 8448KB)
+# OS:   Red Hat Enterprise Linux Server release 7.5 (Maipo)
+
+source vedic8bit.tcl
+genus -f vedic8bit.tcl
+quit

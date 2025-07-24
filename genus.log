@@ -1,0 +1,120 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2021 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Version: 20.11-s111_1, built Mon Apr 26 02:27:38 PDT 2021
+Options: -files vedic8bit.tcl 
+Date:    Wed Jun 19 14:55:03 2024
+Host:    cadence (x86_64 w/Linux 3.10.0-862.el7.x86_64) (4cores*8cpus*1physical cpu*Intel(R) Xeon(R) W-2123 CPU @ 3.60GHz 8448KB) (15897768KB)
+PID:     26206
+OS:      Red Hat Enterprise Linux Server release 7.5 (Maipo)
+
+Checking out license: Genus_Synthesis
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...
+Finished loading tool scripts (7 seconds elapsed).
+
+#@ Processing -files option
+@genus 1> source vedic8bit.tcl
+#@ Begin verbose source ./vedic8bit.tcl
+@file(vedic8bit.tcl) 1: set_db init_lib_search_path /home/cad/digital/180nm/dig/lib/
+  Setting attribute of root '/': 'init_lib_search_path' = /home/cad/digital/180nm/dig/lib/
+@file(vedic8bit.tcl) 3: set_db library  ./lib/slow.lib
+
+Threads Configured:3
+
+  Message Summary for Library slow.lib:
+  *************************************
+  Missing a function attribute in the output pin definition. [LBR-518]: 1
+  An unsupported construct was detected in this library. [LBR-40]: 1
+  *************************************
+ 
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.620000, 125.000000) in library 'slow.lib'.
+        : The nominal operating condition is represented, either by the nominal PVT values specified in the library source (via nom_process,nom_voltage and nom_temperature respectively), or by the default PVT values (1.0,1.0,1.0).
+  Setting attribute of root '/': 'library' = ./lib/slow.lib
+@file(vedic8bit.tcl) 4: set_db library  ./lib/typical.lib
+Freeing libraries in memory (./lib/slow.lib)
+
+
+Threads Configured:3
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'RSLATNX1' (File /root/PranS/proj/MAC16/vedic8bit/lib/typical.lib, Line 147265)
+        : Sequential timing checks, such as 'setup_rising' or 'hold_rising', on flop and latch cells require a clock pin. Verify that the 'clock' attribute of the clock pin is set to 'true' or that the clock pin has a 'clocked_on' attribute.
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'RSLATNX2' (File /root/PranS/proj/MAC16/vedic8bit/lib/typical.lib, Line 147568)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'RSLATNX4' (File /root/PranS/proj/MAC16/vedic8bit/lib/typical.lib, Line 147871)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'RSLATNXL' (File /root/PranS/proj/MAC16/vedic8bit/lib/typical.lib, Line 148174)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'RSLATX1' (File /root/PranS/proj/MAC16/vedic8bit/lib/typical.lib, Line 148477)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'RSLATX2' (File /root/PranS/proj/MAC16/vedic8bit/lib/typical.lib, Line 148841)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'RSLATX4' (File /root/PranS/proj/MAC16/vedic8bit/lib/typical.lib, Line 149205)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'RSLATXL' (File /root/PranS/proj/MAC16/vedic8bit/lib/typical.lib, Line 149569)
+
+  Message Summary for Library typical.lib:
+  ****************************************
+  Missing clock pin in the sequential cell. [LBR-525]: 8
+  Missing a function attribute in the output pin definition. [LBR-518]: 1
+  An unsupported construct was detected in this library. [LBR-40]: 1
+  ****************************************
+ 
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.800000, 25.000000) in library 'typical.lib'.
+  Setting attribute of root '/': 'library' = ./lib/typical.lib
+@file(vedic8bit.tcl) 5: set_db library  ./lib/fast.lib
+Freeing libraries in memory (./lib/typical.lib)
+
+
+Threads Configured:3
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'RSLATNX1' (File /root/PranS/proj/MAC16/vedic8bit/lib/fast.lib, Line 147265)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'RSLATNX2' (File /root/PranS/proj/MAC16/vedic8bit/lib/fast.lib, Line 147568)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'RSLATNX4' (File /root/PranS/proj/MAC16/vedic8bit/lib/fast.lib, Line 147871)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'RSLATNXL' (File /root/PranS/proj/MAC16/vedic8bit/lib/fast.lib, Line 148174)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'RSLATX1' (File /root/PranS/proj/MAC16/vedic8bit/lib/fast.lib, Line 148477)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'RSLATX2' (File /root/PranS/proj/MAC16/vedic8bit/lib/fast.lib, Line 148841)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'RSLATX4' (File /root/PranS/proj/MAC16/vedic8bit/lib/fast.lib, Line 149205)
+Warning : Missing clock pin in the sequential cell. [LBR-525]
+        : Clock pin absent in sequential cell(s) 'RSLATXL' (File /root/PranS/proj/MAC16/vedic8bit/lib/fast.lib, Line 149569)
+
+  Message Summary for Library fast.lib:
+  *************************************
+  Missing clock pin in the sequential cell. [LBR-525]: 8
+  Missing a function attribute in the output pin definition. [LBR-518]: 1
+  An unsupported construct was detected in this library. [LBR-40]: 1
+  *************************************
+ 
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.980000, 0.000000) in library 'fast.lib'.
+  Setting attribute of root '/': 'library' = ./lib/fast.lib
+@file(vedic8bit.tcl) 7: read_hdl {./vedic8bit.v}
+always@(posedge clk)
+                |
+Error   : Reference to undeclared variable. A variable/parameter must be declared before it is referenced. [VLOGPT-20] [read_hdl]
+        : Symbol 'clk' in file './vedic8bit.v' on line 25, column 17.
+        : Verilog module is using a parameter that is not defined in the module. You will get a notification for this, if you read the verilog file using the read_hdl command.
+#@ End verbose source ./vedic8bit.tcl
+1
+Encountered problems processing file: vedic8bit.tcl
+WARNING: This version of the tool is 1149 days old.
+@genus:root: 2> genus -f vedic8bit.tcl
+@genus:root: 3> quit
+Normal exit.
