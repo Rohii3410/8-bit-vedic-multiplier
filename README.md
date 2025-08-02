@@ -69,7 +69,7 @@ See the [LICENSE](LICENSE) file for more information.
 
 ## 📧 Contact
 
-📩 Connect on [LinkedIn](https://linkedin.com/in/Rohii3410)  
+📩 Connect on [LinkedIn](https://linkedin.com/in/rohith-kumar-chinta-209984225)  
 📧 Email: rohithkumarchinta00143@gmail.com
 
 ⭐ If you found this project helpful, don’t forget to **Star** the repository!
