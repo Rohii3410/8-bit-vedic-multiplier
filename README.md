@@ -29,13 +29,13 @@ This project demonstrates the design and simulation of an **8-bit Vedic Multipli
 <img src="pix_vedic8bit/power_v8.png" alt="Power Report" width="600"/>
 
 ### ⌛ Delay Report  
-<img src="images/delay_v8.png" alt="Delay Report" width="600"/>
+<img src="pix_vedic8bit/delay_v8.png" alt="Delay Report" width="600"/>
 
 ### 🧱 Area Report  
-<img src="images/area_v8.png" alt="Area Report" width="600"/>
+<img src="pix_vedic8bit/area_v8.png" alt="Area Report" width="600"/>
 
 ### 📶 Simulation Waveform  
-<img src="images/sim_wvfrm_v8.png" alt="Simulation Waveform" width="600"/>
+<img src="pix_vedic8bit/sim_wvfrm_v8.png" alt="Simulation Waveform" width="600"/>
 
 ## 📊 Performance Summary
 
@@ -58,9 +58,9 @@ The Vedic multiplier uses the **Urdhva Tiryakbhyam Sutra**, which performs multi
 
 ## 🙋‍♂️ Author
 
-**Rohith Kumar (Raji)**  
+**Rohith Kumar**  
 Final Year B.Tech Student, Bonam Venkata Chalamayya Engineering College  
-GitHub: [https://github.com/yourusername](https://github.com/yourusername)
+GitHub: [https://github.com/Rohith](https://github.com/Rohii3410)
 
 ## 📜 License
 
@@ -69,7 +69,7 @@ See the [LICENSE](LICENSE) file for more information.
 
 ## 📧 Contact
 
-📩 Connect on [LinkedIn](https://linkedin.com/in/yourprofile)  
-📧 Email: your.email@example.com
+📩 Connect on [LinkedIn](https://linkedin.com/in/Rohii3410)  
+📧 Email: rohithkumarchinta00143@gmail.com
 
 ⭐ If you found this project helpful, don’t forget to **Star** the repository!
