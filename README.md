@@ -23,7 +23,7 @@ This project demonstrates the design and simulation of an **8-bit Vedic Multipli
 ## 🖼️ Results
 
 ### 🔧 Schematic Diagram  
-<img src="pix_vedic8bit/schematic_v8a.png" alt="Schematic Diagram" width="600"/>
+<img src="pix_vedic8bit/schematic_v8.png" alt="Schematic Diagram" width="600"/>
 
 ### 🔋 Power Report  
 <img src="images/power_v8.png" alt="Power Report" width="600"/>
